@@ -1,0 +1,32 @@
+[
+    {
+    "id":1,
+    "imageURL":"hero1.jpg",
+    "title":"hero-img-1"
+    },
+    {
+        "id":2,
+        "imageURL":"/hero2.jpg",
+        "title":"hero-img-2"
+    },
+    {
+        "id":3,
+        "imageURL":"/hero3.jpg",
+        "title":"hero-img-3"
+    },
+    {
+        "id":4,
+        "imageURL":"/hero4.jpg",
+        "title":"hero-img-4"
+    },
+    {
+        "id":5,
+        "imageURL":"/hero5.jpg",
+        "title":"hero-img-5"
+    },
+    {
+        "id":6,
+        "imageURL":"/hero6.jpg",
+        "title":"hero-img-6"
+    }
+]
