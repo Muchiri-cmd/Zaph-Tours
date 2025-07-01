@@ -1,4 +1,11 @@
-import { Navbar, Hero, About, Destinations, Testimonials } from "./components";
+import {
+  Navbar,
+  Hero,
+  About,
+  Destinations,
+  Testimonials,
+  NewsLetter,
+} from "./components";
 import "./index.css";
 
 const App = () => {
@@ -9,6 +16,7 @@ const App = () => {
       <About />
       <Destinations />
       <Testimonials />
+      <NewsLetter />
     </>
   );
 };
