@@ -1,5 +1,5 @@
-import { Navbar,Hero,About } from './components';
-import './index.css';
+import { Navbar, Hero, About } from "./components";
+import "./index.css";
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Hero />
       <About />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
