@@ -1,10 +1,12 @@
-import { Navbar,Hero } from './components';
+import { Navbar,Hero,About } from './components';
+import './index.css';
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
+      <About />
     </>
   )
 }

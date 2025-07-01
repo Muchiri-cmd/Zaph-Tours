@@ -1,14 +1,32 @@
 import Carousel from 'react-material-ui-carousel'
-import { Paper, Button,Box } from '@mui/material'
+import { Paper,Box, Typography } from '@mui/material'
 import slider from '../data/slider.json'
 
 const Hero = () => {
     return (
-        <Carousel>
-            {
-                slider.map(item  => <Item key={item.id} item={item} /> )
-            }
-        </Carousel>
+        <Box sx={{ position: 'relative', overflow: 'hidden' , height: '100vh', width: '100%' , overflowX: 'hidden'}}
+        >
+            <Carousel indicators={true}
+                navButtonsAlwaysVisible={false}
+                indicatorContainerProps={{
+                    style: {
+                      position: 'absolute',
+                      bottom: '40px',  
+                      zIndex: 10,
+                    }
+                  }}
+                  indicatorIconButtonProps={{
+                    style: {
+                      padding: '5px', 
+                      fontSize: '2rem',
+                    },
+                  }}
+                >
+                {
+                    slider.map(item  => <Item key={item.id} item={item} /> )
+                }
+            </Carousel>
+        </Box>
     )
 }
 
@@ -25,17 +43,20 @@ const Item = ({ item }: ItemProps) => {
         <Paper
             sx = {{
                 position: 'relative',
-                height: '88vh',
+                height: '100vh',
+                width: '100%',
+                margin:0,
                 backgroundImage: `url(${item.imageURL})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 borderRadius: 0,
+                boxShadow: 'none',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
             }}
         >
-           
+           {/* Overlay */}
             <Box
                 sx={{
                 position: 'absolute',
@@ -43,7 +64,7 @@ const Item = ({ item }: ItemProps) => {
                 left: 0,
                 height: '100%',
                 width: '100%',
-                backgroundColor: 'rgba(0, 0, 0, 0.1)', 
+                backgroundColor: 'rgba(0, 0, 0, 0.2)', 
                 zIndex:1,
             }}
             />
@@ -56,16 +77,19 @@ const Item = ({ item }: ItemProps) => {
                 textAlign: 'center',
                 }}
             >
-                <Button variant="contained" size="large"
-                    sx ={{
-                        px:4,
-                        py:2,
-                        borderRadius:'10px',
-                        border:'none'
-                    }}
-                >
-                    Explore The World With Us!
-                </Button>
+              
+            <Typography
+                variant="h1"
+                sx={{
+                    fontFamily: "'Dancing Script', 'Great Vibes', cursive",
+                    textAlign: 'center',
+                    letterSpacing: '2px', 
+                    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                }}
+            >
+                Explore The World with us
+            </Typography>
+
             </Box>
         </Paper>
     )

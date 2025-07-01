@@ -1,10 +1,21 @@
-import { AppBar, Toolbar, IconButton, Typography,Stack,Button } from "@mui/material";
+import { AppBar, Toolbar, Typography,Stack,Button } from "@mui/material";
   
 const Navbar = () => {
   return (
-    <AppBar position="static">
-        <Toolbar>
-            <Typography variant="h6" sx={{ flexGrow:1 }}>
+    <AppBar position="fixed"
+      sx = {{
+        backgroundColor:'transparent',
+        boxShadow: 'none',
+        backdropFilter: 'blur(10px)',
+        zIndex:1200,
+      }}
+    >
+        <Toolbar
+          sx={{ 
+          justifyContent: 'space-between',
+          px: { xs: 2, md: 4 }
+          }}>
+            <Typography variant="h5" sx={{ flexGrow:1, fontWeight: 'bold', textTransform: 'uppercase' }}>
                 Zaph Tours
             </Typography>
 
