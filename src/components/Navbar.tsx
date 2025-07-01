@@ -1,5 +1,6 @@
 import { AppBar, Toolbar, Typography, Stack, Button } from "@mui/material";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
     <AppBar
       position="fixed"
       sx={{
-        backgroundColor: scrolled ? "#ffffff" : "transparent",
+        backgroundColor: scrolled ? "#f2f2f2" : "rgba(0, 0, 0, 0.2)",
         boxShadow: "none",
         transition: "background-color 0.3s ease, box-shadow 0.3s ease",
         zIndex: 1200,
@@ -45,7 +46,8 @@ const Navbar = () => {
         <Stack direction="row" spacing={2}>
           <Button
             color="inherit"
-            href="null"
+            component={Link}
+            to="/"
             sx={{
               color: scrolled ? "#000000" : "#ffffff",
             }}
@@ -54,7 +56,8 @@ const Navbar = () => {
           </Button>
           <Button
             color="inherit"
-            href="null"
+            component={Link}
+            to="/destinations"
             sx={{
               color: scrolled ? "#000000" : "#ffffff",
             }}

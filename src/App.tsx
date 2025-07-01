@@ -1,26 +1,14 @@
-import {
-  Navbar,
-  Hero,
-  About,
-  Destinations,
-  Testimonials,
-  NewsLetter,
-  Banner,
-  Footer,
-} from "./components";
 import "./index.css";
+import { Routes, Route } from "react-router-dom";
+import { HomePage, DestinationsPage } from "./pages";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Destinations />
-      <Testimonials />
-      <Banner />
-      <NewsLetter />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/destinations" element={<DestinationsPage />} />
+      </Routes>
     </>
   );
 };
