@@ -5,6 +5,7 @@ import {
   Destinations,
   Testimonials,
   NewsLetter,
+  Banner,
 } from "./components";
 import "./index.css";
 
@@ -16,6 +17,7 @@ const App = () => {
       <About />
       <Destinations />
       <Testimonials />
+      <Banner />
       <NewsLetter />
     </>
   );
