@@ -6,6 +6,7 @@ import {
   Testimonials,
   NewsLetter,
   Banner,
+  Footer,
 } from "./components";
 import "./index.css";
 
@@ -19,6 +20,7 @@ const App = () => {
       <Testimonials />
       <Banner />
       <NewsLetter />
+      <Footer />
     </>
   );
 };

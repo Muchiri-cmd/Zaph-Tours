@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <Box
       sx={{
-        height: "100vh",
+        height: "80vh",
         backgroundImage: `url('/lion3.jpeg')`,
         backgroundAttachment: "fixed",
         backgroundSize: "cover",

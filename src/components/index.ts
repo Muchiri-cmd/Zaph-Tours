@@ -5,5 +5,15 @@ import Destinations from "./Destinations";
 import Testimonials from "./Testimonials";
 import NewsLetter from "./NewsLetter";
 import Banner from "./Banner";
+import Footer from "./Footer";
 
-export { Navbar, Hero, About, Destinations, Testimonials, NewsLetter, Banner };
+export {
+  Navbar,
+  Hero,
+  About,
+  Destinations,
+  Testimonials,
+  NewsLetter,
+  Banner,
+  Footer,
+};
