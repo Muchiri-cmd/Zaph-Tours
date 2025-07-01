@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Hunter",
+    "comment": "Zaph Tours gave me a life-changing safari in Kenya. The landscapes, wildlife, and warm people made it unforgettable.",
+    "nationality": "USA",
+    "image": "/user1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Kim Hunter",
+    "comment": "As a wildlife photographer, I was blown away by the access and expertise of the guides. I captured my best shots with Zaph Tours.",
+    "nationality": "Canada",
+    "image": "/user2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Danny Williams",
+    "comment": "Traveling with my family felt effortless. The attention to detail and kid-friendly experiences were incredible!",
+    "nationality": "United Kingdom",
+    "image": "/user3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Gareth Walker",
+    "comment": "From Mount Kenya to the coastal towns, Zaph Tours delivered a seamless and adventurous journey I'll never forget.",
+    "nationality": "Australia",
+    "image": "/user4.jpg"
+  }
+]

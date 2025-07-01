@@ -12,7 +12,6 @@ const About = () => {
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
-        backgroundColor: "#f5f5f5",
       }}
     >
       <Typography
