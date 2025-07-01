@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Mt Kenya",
+    "image": "/mt_kenya.jpeg",
+    "description": "Trek Africa's second-highest peak through misty forests and alpine meadows.",
+    "price": 680
+  },
+  {
+    "id": 2,
+    "name": "Mt Ruwenzori",
+    "image": "/mt_ruwenzori.jpeg",
+    "description": "Explore the mystical Mountains of the Moon along the Uganda-Congo border.",
+    "price": 790
+  },
+  {
+    "id": 3,
+    "name": "Lake Nakuru",
+    "image": "/lake_nakuru.jpeg",
+    "description": "Witness flamingos, rhinos, and scenic lake views in a compact safari park.",
+    "price": 350
+  },
+  {
+    "id": 4,
+    "name": "Tsavo National Park",
+    "image": "/tsavo.jpeg",
+    "description": "One of Kenya’s largest parks home to red elephants and volcanic landscapes.",
+    "price": 480
+  },
+  {
+    "id": 5,
+    "name": "Nairobi National Park",
+    "image": "/nnp.jpeg",
+    "description": "Safari with skyscrapers in the background—minutes from Kenya’s capital.",
+    "price": 220
+  },
+  {
+    "id": 6,
+    "name": "Coastal Kenya",
+    "image": "/coastal_kenya.jpeg",
+    "description": "Relax on white sand beaches, explore Swahili culture, and dive coral reefs.",
+    "price": 560
+  }
+]

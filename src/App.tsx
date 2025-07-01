@@ -1,4 +1,4 @@
-import { Navbar, Hero, About } from "./components";
+import { Navbar, Hero, About, Destinations } from "./components";
 import "./index.css";
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Destinations />
     </>
   );
 };
