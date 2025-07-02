@@ -28,13 +28,11 @@ const Banner = () => {
         of God. You watch the lope of a lioness and forget to breathe. When you
         are in Africa, you feel primordial, rocked in the cradle of the world.”
         <br />
-        <Typography>
-          <span
-            style={{ fontStyle: "italic", fontSize: "20px", marginTop: "20px" }}
-          >
-            {" "}
-            - Jodi Picoult
-          </span>
+        <Typography
+          sx={{ fontStyle: "italic", fontSize: "20px", marginTop: "20px" }}
+        >
+          {" "}
+          - Jodi Picoult
         </Typography>
       </Typography>
     </Box>

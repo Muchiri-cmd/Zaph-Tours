@@ -45,7 +45,6 @@ const About = () => {
         sx={{
           maxWidth: "800px",
           fontSize: "1.2rem",
-          lineHeight: "1.6",
           color: "#555",
           mb: 4,
           mx: "auto",
@@ -65,7 +64,6 @@ const About = () => {
           py: 2,
           borderRadius: "10px",
           fontWeight: 600,
-          letterSpacing: 1,
           "&:hover": {
             backgroundColor: "#865841",
           },

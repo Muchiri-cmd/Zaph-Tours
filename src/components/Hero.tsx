@@ -88,8 +88,6 @@ const Item = ({ item }: ItemProps) => {
           variant="h2"
           sx={{
             textAlign: "center",
-            letterSpacing: "2px",
-            fontFamily: "'Roboto', sans-serif",
             textTransform: "uppercase",
           }}
         >
@@ -101,7 +99,6 @@ const Item = ({ item }: ItemProps) => {
           sx={{
             fontFamily: "'Dancing Script', 'Great Vibes', cursive",
             textAlign: "center",
-            letterSpacing: "2px",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
           }}
         >

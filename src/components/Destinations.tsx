@@ -74,7 +74,6 @@ const Destinations = () => {
                 p: 2,
                 display: "flex",
                 flexDirection: "column",
-                backgroundColor: "#FAFAFA",
               }}
             >
               <Typography
@@ -82,7 +81,6 @@ const Destinations = () => {
                 sx={{
                   fontWeight: "bold",
                   mb: 1,
-                  color: "#2E2E2E",
                 }}
               >
                 {destination.name}
