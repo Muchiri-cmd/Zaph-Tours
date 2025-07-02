@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Honeymoon Escapes",
+    "images": ["/honeymoon1.jpg", "/honeymoon2.jpg", "/honeymoon3.jpg"],
+    "description": "Romantic getaways tailored for couples—luxury resorts, candlelit dinners, and unforgettable memories in breathtaking destinations.",
+    "price": 2499,
+    "offer": "20% off for early bookings",
+    "tag": "Popular"
+  },
+  {
+    "id": 2,
+    "title": "Family Adventures",
+    "images": ["/family1.jpg", "/family2.jpg", "/family3.jpg"],
+    "description": "Kid-friendly destinations with fun activities, comfortable accommodations, and unforgettable bonding experiences for the whole family.",
+    "price": 1899,
+    "offer": "Kids under 12 travel FREE",
+    "tag": "Family Favorite"
+  },
+  {
+    "id": 3,
+    "title": "Adventure Trips",
+    "images": ["/adventure1.jpg", "/adventure2.jpg", "/adventure3.jpg"],
+    "description": "Thrilling expeditions for the bold—mountain hikes, rafting, ziplining, and wilderness camping under the stars.",
+    "price": 1690,
+    "offer": "Free gear rental",
+    "tag": "Adrenaline Rush"
+  },
+  {
+    "id": 4,
+    "title": "Cultural Tours",
+    "images": ["/cultural1.jpg", "/cultural2.jpg", "/cultural3.jpg"],
+    "description": "Immerse yourself in rich cultures—visit historic landmarks, experience traditional food, and meet local artisans.",
+    "price": 1350,
+    "offer": "Group discounts available",
+    "tag": "Authentic"
+  },
+  {
+    "id": 5,
+    "title": "Wildlife Safaris",
+    "images": ["/safari1.jpg", "/safari2.jpg", "/safari3.jpg"],
+    "description": "Witness Africa's majestic wildlife in their natural habitat—big five safaris, bird watching, and guided game drives.",
+    "price": 1750,
+    "offer": "Free park entry for kids",
+    "tag": "Top Pick"
+  },
+  {
+    "id": 6,
+    "title": "Eco-Tours",
+    "images": ["/eco1.jpeg", "/eco2.jpeg", "/eco3.jpeg"],
+    "description": "Explore sustainable travel—eco-lodges, conservation programs, and nature-based activities that protect our planet.",
+    "price": 1450,
+    "offer": "Support local communities",
+    "tag": "Eco Friendly"
+  },
+  {
+    "id": 7,
+    "title": "Luxury Vacations",
+    "images": ["/luxury1.jpeg", "/luxury2.jpeg", "/luxury3.jpeg"],
+    "description": "Indulge in the best—5-star accommodations, private chefs, spa treatments, and VIP experiences like no other.",
+    "price": 3200,
+    "offer": "Complimentary spa package",
+    "tag": "Luxury"
+  },
+  {
+    "id": 8,
+    "title": "Beach Holidays",
+    "images": ["/beach1.jpeg", "/beach.jpeg", "/beach3.jpg"],
+    "description": "Sun, sand, and serenity—white sandy beaches, turquoise waters, and refreshing ocean breezes await you.",
+    "price": 1750,
+    "offer": "3rd night free",
+    "tag": "Relaxation"
+  },
+  {
+    "id": 9,
+    "title": "Wellness Retreats",
+    "images": ["/wellness1.jpg", "/wellness2.jpg", "/wellness3.jpg"],
+    "description": "Rejuvenate your body and mind—yoga, meditation, detox programs, and nature walks in serene environments.",
+    "price": 2100,
+    "offer": "10% off for couples",
+    "tag": "Wellbeing"
+  },
+  {
+    "id": 10,
+    "title": "Culinary Tours",
+    "images": ["/culinary1.jpeg", "/culinary2.jpeg", "/culinary3.jpeg"],
+    "description": "Tantalize your taste buds—guided food experiences, cooking classes, and wine tastings across culinary hotspots.",
+    "price": 1600,
+    "offer": "Free gourmet tasting included",
+    "tag": "Foodie Favorite"
+  }
+]
