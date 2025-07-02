@@ -1,5 +1,12 @@
 import { Navbar, Footer } from "../components";
-import { Box, Typography, Card, CardMedia, CardContent } from "@mui/material";
+import {
+  Box,
+  Typography,
+  Card,
+  CardMedia,
+  CardContent,
+  Button,
+} from "@mui/material";
 import destinations from "../data/destinations.json";
 
 const DestinationsPage = () => {
@@ -79,39 +86,47 @@ const DestinationsPage = () => {
                   backgroundColor: "#FAFAFA",
                 }}
               >
-                <Typography
-                  variant="h6"
-                  sx={{
-                    fontWeight: "bold",
-                    mb: 1,
-                    color: "#2E2E2E",
-                  }}
-                >
+                <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>
                   {destination.name}
                 </Typography>
 
                 <Typography
                   variant="body2"
-                  sx={{
-                    color: "grey",
-                    fontSize: "0.95rem",
-                    mb: 2,
-                    whiteSpace: "normal",
-                  }}
+                  sx={{ color: "grey", fontSize: "0.95rem", mb: 2 }}
                 >
                   {destination.description}
                 </Typography>
 
-                <Typography
-                  variant="subtitle1"
+                <Typography variant="body2" sx={{ fontWeight: 500, mb: 0.5 }}>
+                  Group Price:{" "}
+                  <span style={{ color: "#9d6b53" }}>
+                    ${destination.groupPrice}
+                  </span>
+                </Typography>
+
+                <Typography variant="body2" sx={{ fontWeight: 500, mb: 1 }}>
+                  Individual Price:{" "}
+                  <span style={{ color: "#9d6b53" }}>
+                    ${destination.individualPrice}
+                  </span>
+                </Typography>
+
+                <Button
+                  href={destination.link}
+                  variant="outlined"
                   sx={{
-                    fontWeight: 600,
-                    color: "#D4AF37",
-                    textAlign: "right",
+                    alignSelf: "flex-end",
+                    mt: "10px",
+                    borderColor: "#9d6b53",
+                    color: "#9d6b53",
+                    "&:hover": {
+                      backgroundColor: "#9d6b53",
+                      color: "#fff",
+                    },
                   }}
                 >
-                  ${destination.price.toFixed(2)}
-                </Typography>
+                  Learn More
+                </Button>
               </CardContent>
             </Card>
           ))}

@@ -37,7 +37,7 @@ const Navbar = () => {
             flexGrow: 1,
             fontWeight: "bold",
             textTransform: "uppercase",
-            color: scrolled ? "#000000" : "#ffffff",
+            color: scrolled ? "#9d6b53" : "#ffffff",
           }}
         >
           Zaph Tours
@@ -49,7 +49,8 @@ const Navbar = () => {
             component={Link}
             to="/"
             sx={{
-              color: scrolled ? "#000000" : "#ffffff",
+              color: scrolled ? "#9d6b53" : "#ffffff",
+              fontWeight: "bold",
             }}
           >
             Home
@@ -59,16 +60,19 @@ const Navbar = () => {
             component={Link}
             to="/destinations"
             sx={{
-              color: scrolled ? "#000000" : "#ffffff",
+              color: scrolled ? "#9d6b53" : "#ffffff",
+              fontWeight: "bold",
             }}
           >
             Destinations
           </Button>
           <Button
             color="inherit"
-            href="null"
+            component={Link}
+            to="/trips"
             sx={{
-              color: scrolled ? "#000000" : "#ffffff",
+              color: scrolled ? "#9d6b53" : "#ffffff",
+              fontWeight: "bold",
             }}
           >
             Trip Types Page
@@ -77,7 +81,8 @@ const Navbar = () => {
             color="inherit"
             href="null"
             sx={{
-              color: scrolled ? "#000000" : "#ffffff",
+              color: scrolled ? "#9d6b53" : "#ffffff",
+              fontWeight: "bold",
             }}
           >
             Contact Us

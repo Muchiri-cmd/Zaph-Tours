@@ -46,7 +46,7 @@ const Testimonials = () => {
                 textAlign: "center",
                 position: "relative",
                 // border: '2px solid red',
-                height: "320px",
+                minHeight: "320px",
                 marginBottom: "3.5rem",
                 boxShadow: 6,
                 //hover

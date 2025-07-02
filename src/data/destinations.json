@@ -4,41 +4,53 @@
     "name": "Mt Kenya",
     "image": "/mt_kenya.jpeg",
     "description": "Trek Africa's second-highest peak through misty forests and alpine meadows.",
-    "price": 680
+    "groupPrice": 680,
+    "individualPrice": 150,
+    "link": "#"
   },
   {
     "id": 2,
     "name": "Mt Ruwenzori",
     "image": "/mt_ruwenzori.jpeg",
     "description": "Explore the mystical Mountains of the Moon along the Uganda-Congo border.",
-    "price": 790
+    "groupPrice": 790,
+    "individualPrice": 160,
+    "link": "#"
   },
   {
     "id": 3,
     "name": "Lake Nakuru",
     "image": "/lake_nakuru.jpeg",
     "description": "Witness flamingos, rhinos, and scenic lake views in a compact safari park.",
-    "price": 350
+    "groupPrice": 350,
+    "individualPrice": 95,
+    "link": "#"
   },
   {
     "id": 4,
     "name": "Tsavo National Park",
     "image": "/tsavo.jpeg",
     "description": "One of Kenya’s largest parks home to red elephants and volcanic landscapes.",
-    "price": 480
+    "groupPrice": 480,
+    "individualPrice": 120,
+    "link": "#"
   },
   {
     "id": 5,
     "name": "Nairobi National Park",
     "image": "/nnp.jpeg",
-    "description": "Safari with skyscrapers in the background—minutes from Kenya’s capital.",
-    "price": 220
+    "description": "Safari with skyscrapers in the background and it's minutes from Kenya’s capital.",
+    "groupPrice": 220,
+    "individualPrice": 75,
+    "link": "#"
   },
   {
     "id": 6,
     "name": "Coastal Kenya",
     "image": "/coastal_kenya.jpeg",
     "description": "Relax on white sand beaches, explore Swahili culture, and dive coral reefs.",
-    "price": 560
+    "groupPrice": 560,
+    "individualPrice": 130,
+    "link": "#"
   }
 ]

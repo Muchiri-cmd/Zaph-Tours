@@ -100,16 +100,48 @@ const Destinations = () => {
                 {destination.description}
               </Typography>
 
-              <Typography
-                variant="subtitle1"
+              <Box
                 sx={{
-                  fontWeight: 600,
-                  color: "#D4AF37",
+                  display: "flex",
+                  justifyContent: "end",
+                  alignItems: "end",
+                  mt: 2,
                   textAlign: "right",
                 }}
               >
-                ${destination.price.toFixed(2)}
-              </Typography>
+                <Box sx={{ mt: 1, mb: 2 }}>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      mb: 1,
+                    }}
+                  >
+                    <Typography variant="body2">Individual Price:</Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        fontWeight: 600,
+                        color: "#9d6b53",
+                      }}
+                    >
+                      ${destination.individualPrice.toFixed(2)}
+                    </Typography>
+                  </Box>
+
+                  <Box
+                    sx={{ display: "flex", justifyContent: "space-between" }}
+                  >
+                    <Typography variant="body2">Group Price:</Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{ fontWeight: 600, color: "#9d6b53" }}
+                    >
+                      ${destination.groupPrice.toFixed(2)}
+                    </Typography>
+                  </Box>
+                </Box>
+              </Box>
             </CardContent>
           </Card>
         ))}
