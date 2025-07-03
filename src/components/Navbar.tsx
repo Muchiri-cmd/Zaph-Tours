@@ -79,7 +79,8 @@ const Navbar = () => {
           </Button>
           <Button
             color="inherit"
-            href="null"
+            component={Link}
+            to="/contact-us"
             sx={{
               color: scrolled ? "#9d6b53" : "#ffffff",
               fontWeight: "bold",
