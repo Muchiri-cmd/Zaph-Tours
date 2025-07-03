@@ -33,28 +33,24 @@ const Navbar = () => {
       >
         <Typography
           variant="h5"
+          component={Link}
+          to="/"
           sx={{
             flexGrow: 1,
             fontWeight: "bold",
             textTransform: "uppercase",
             color: scrolled ? "#9d6b53" : "#ffffff",
+            fontFamily: "cursive",
+            textDecoration: "none",
+            "&:hover": {
+              cursor: "pointer",
+            },
           }}
         >
           Zaph Tours
         </Typography>
 
         <Stack direction="row" spacing={2}>
-          <Button
-            color="inherit"
-            component={Link}
-            to="/"
-            sx={{
-              color: scrolled ? "#9d6b53" : "#ffffff",
-              fontWeight: "bold",
-            }}
-          >
-            Home
-          </Button>
           <Button
             color="inherit"
             component={Link}

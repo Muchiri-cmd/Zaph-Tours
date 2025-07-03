@@ -6,6 +6,7 @@ import {
   ListItemText,
   Typography,
   TextField,
+  Link,
 } from "@mui/material";
 import { IoMail } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
@@ -28,6 +29,7 @@ const Footer = () => {
             variant="h1"
             sx={{
               fontFamily: "Dancing Script, cursive",
+              color: "#9d6b53",
             }}
           >
             Zaph Tours
@@ -52,18 +54,50 @@ const Footer = () => {
       <Box>
         <List>
           <ListItem>
-            <Typography variant="h6" sx={{ mb: 1, fontWeight: "bold" }}>
+            <Typography
+              variant="h6"
+              sx={{
+                mb: 1,
+                fontWeight: "bold",
+                color: "#9d6b53",
+                fontFamily: "cursive",
+              }}
+            >
               ADVENTURE AWAITS
             </Typography>
           </ListItem>
           <ListItem>
-            <ListItemText primary="Adventure Catalogue" />
+            <Link
+              sx={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <ListItemText primary="Adventure Catalogue" />
+            </Link>
           </ListItem>
           <ListItem>
-            <ListItemText primary="Tours" />
+            <Link
+              sx={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <ListItemText primary="Tours" />
+            </Link>
           </ListItem>
           <ListItem>
-            <ListItemText primary="Destinations" />
+            <Link
+              sx={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <ListItemText primary="Destinations" />
+            </Link>
           </ListItem>
         </List>
       </Box>
@@ -71,19 +105,53 @@ const Footer = () => {
       <Box>
         <List>
           <ListItem>
-            <Typography variant="h6" sx={{ mb: 1, fontWeight: "bold" }}>
+            <Typography
+              variant="h6"
+              sx={{
+                mb: 1,
+                fontWeight: "bold",
+                color: "#9d6b53",
+                fontFamily: "cursive",
+              }}
+            >
               ABOUT US
             </Typography>
           </ListItem>
 
           <ListItem>
-            <ListItemText primary="About Us" />
+            <Link
+              sx={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <ListItemText primary="About Us" />
+            </Link>
           </ListItem>
+
           <ListItem>
-            <ListItemText primary="Pack For A Purpose" />
+            <Link
+              sx={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <ListItemText primary="Pack For A Purpose" />
+            </Link>
           </ListItem>
+
           <ListItem>
-            <ListItemText primary="Contact" />
+            <Link
+              sx={{
+                textDecoration: "none",
+                color: "black",
+                cursor: "pointer",
+              }}
+            >
+              <ListItemText primary="Contact" />
+            </Link>
           </ListItem>
         </List>
       </Box>
@@ -91,25 +159,45 @@ const Footer = () => {
       <Box>
         <List>
           <ListItem>
-            <Typography variant="h6" sx={{ mb: 1, fontWeight: "bold" }}>
+            <Typography
+              variant="h6"
+              sx={{
+                mb: 1,
+                fontWeight: "bold",
+                color: "#9d6b53",
+                fontFamily: "cursive",
+              }}
+            >
               GET IN TOUCH
             </Typography>
           </ListItem>
           <ListItem>
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                color: "#9d6b53",
+              }}
+            >
               <FaPhone />
             </ListItemIcon>
             <ListItemText primary="+254 94812642818" />
           </ListItem>
           <ListItem>
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                color: "#9d6b53",
+              }}
+            >
               <FaPhone />
             </ListItemIcon>
             <ListItemText primary="+254 94812642818" />
           </ListItem>
 
           <ListItem>
-            <ListItemIcon>
+            <ListItemIcon
+              sx={{
+                color: "#9d6b53",
+              }}
+            >
               <IoMail />
             </ListItemIcon>
             <ListItemText primary="zaphtours@gmail.com" />

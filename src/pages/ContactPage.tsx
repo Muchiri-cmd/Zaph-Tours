@@ -8,6 +8,8 @@ import {
   ListItemText,
   Container,
   Paper,
+  ListItemIcon,
+  Button,
 } from "@mui/material";
 import {
   FaInstagram,
@@ -16,8 +18,13 @@ import {
   FaWhatsapp,
   FaYoutube,
   FaFacebook,
+  FaClock,
+  FaPhone,
+  FaRegPaperPlane,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { CiLocationOn } from "react-icons/ci";
+import { MdAttachEmail, MdOutlineEmail } from "react-icons/md";
 
 const ContactPage = () => {
   return (
@@ -66,6 +73,7 @@ const ContactPage = () => {
             <Typography>Please fill out the form below</Typography>
             <TextField
               label="Name"
+              placeholder="Enter your name"
               type="text"
               variant="outlined"
               sx={{
@@ -74,6 +82,7 @@ const ContactPage = () => {
             ></TextField>
             <TextField
               label="Email"
+              placeholder="Enter your email"
               type="text"
               variant="outlined"
               sx={{
@@ -82,14 +91,27 @@ const ContactPage = () => {
             ></TextField>
             <TextField
               label="Message"
+              placeholder="What's your message"
               type="text"
               variant="outlined"
               multiline
-              minRows={7}
+              minRows={6}
               sx={{
                 width: "100%",
               }}
             ></TextField>
+
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor: "#9d6b53",
+                display: "flex",
+                gap: 1,
+              }}
+            >
+              Submit
+              <FaRegPaperPlane />
+            </Button>
           </Box>
         </Box>
 
@@ -109,25 +131,70 @@ const ContactPage = () => {
         >
           <Box
             sx={{
-              borderRight: ".5px solid gray",
+              borderRight: ".1px solid #9d6b53",
               width: "50%",
             }}
           >
-            <Typography>Zaph Tours Limited</Typography>
+            <Typography
+              sx={{
+                color: "#9d6b53",
+                fontSize: "1.5rem",
+                textTransform: "uppercase",
+                fontWeight: "bold",
+                fontFamily: "cursive",
+              }}
+            >
+              Zaph Tours Limited
+            </Typography>
             <List>
               <ListItem>
+                <ListItemIcon
+                  sx={{
+                    color: "#9d6b53",
+                  }}
+                >
+                  <FaClock />
+                </ListItemIcon>
                 <ListItemText primary="Working Hours: 8:00 A.M - 8:00 P.M (Daily)" />
               </ListItem>
               <ListItem>
+                <ListItemIcon
+                  sx={{
+                    color: "#9d6b53",
+                  }}
+                >
+                  <CiLocationOn />
+                </ListItemIcon>
                 <ListItemText primary="Off Langata Road" />
               </ListItem>
               <ListItem>
+                <ListItemIcon
+                  sx={{
+                    color: "#9d6b53",
+                  }}
+                >
+                  <MdAttachEmail />
+                </ListItemIcon>
                 <ListItemText primary="P.O Box 8573265-8372 Karen, Nairobi,KE" />
               </ListItem>
               <ListItem>
+                <ListItemIcon
+                  sx={{
+                    color: "#9d6b53",
+                  }}
+                >
+                  <FaPhone />
+                </ListItemIcon>
                 <ListItemText primary="Phone: (+254) 87532897 | 897894717" />
               </ListItem>
               <ListItem>
+                <ListItemIcon
+                  sx={{
+                    color: "#9d6b53",
+                  }}
+                >
+                  <MdOutlineEmail />
+                </ListItemIcon>
                 <ListItemText primary="Email: zaphtours@gmail.com" />
               </ListItem>
             </List>
@@ -143,51 +210,58 @@ const ContactPage = () => {
             >
               <FaInstagram
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   cursor: "pointer",
+                  color: "#9d6b53",
                 }}
               />
               <FaXTwitter
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   cursor: "pointer",
+                  color: "#9d6b53",
                 }}
               />
               <FaLinkedin
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   cursor: "pointer",
+                  color: "#9d6b53",
                 }}
               />
               <FaTiktok
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   cursor: "pointer",
+                  color: "#9d6b53",
                 }}
               />
               <FaWhatsapp
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   cursor: "pointer",
+                  color: "#9d6b53",
                 }}
               />
               <FaYoutube
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   cursor: "pointer",
+                  color: "#9d6b53",
                 }}
               />
               <FaFacebook
                 style={{
-                  fontSize: "2rem",
+                  fontSize: "1.5rem",
                   cursor: "pointer",
+                  color: "#9d6b53",
                 }}
               />
             </Box>
           </Box>
           <Box
             sx={{
-              borderLeft: ".5px solid gray",
+              borderLeft: ".1px solid #9d6b53",
               width: "50%",
               display: "flex",
               flexDirection: "column",
@@ -204,7 +278,7 @@ const ContactPage = () => {
               >
                 <Box sx={{ mt: 2 }}>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=..."
+                    src="https://www.google.com/maps/embed?"
                     width="100%"
                     height="400"
                     style={{ border: 0 }}
