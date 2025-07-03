@@ -42,6 +42,7 @@ const TripsPage = () => {
                 justifyContent: "center",
                 gap: 2,
                 margin: "20px",
+                // border:'2px solid red',
               }}
             >
               <Card
@@ -51,7 +52,7 @@ const TripsPage = () => {
                   overflow: "hidden",
                   position: "relative",
                   // border:'2px solid red',
-                  width: "610px",
+                  maxWidth: "610px",
                 }}
               >
                 <Carousel indicators={true} navButtonsAlwaysVisible={false}>

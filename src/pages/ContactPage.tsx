@@ -32,7 +32,9 @@ const ContactPage = () => {
       <Navbar />
       <Box
         sx={{
-          margin: "70px",
+          marginTop: "70px",
+          // border:'2px solid red',
+          padding: "10px",
         }}
       >
         <Box
@@ -65,7 +67,11 @@ const ContactPage = () => {
               flexDirection: "column",
               gap: 2,
               padding: "20px",
-              width: "80%",
+              width: {
+                xs: "100%",
+                sm: "80%",
+                md: "60%",
+              },
               marginTop: "20px",
               alignItems: "center",
             }}
@@ -117,22 +123,39 @@ const ContactPage = () => {
 
         <Box
           sx={{
-            width: "80%",
+            width: {
+              sm: "100%",
+              md: "80%",
+              lg: "60%",
+            },
             minheight: "500px",
             // border:'2px solid red',
             margin: "auto",
             marginTop: "50px",
             display: "flex",
+            flexDirection: {
+              xs: "column",
+              sm: "row",
+              md: "row",
+            },
             justifyContent: "space-around",
-            padding: "2rem",
+            padding: "1rem",
             boxShadow: 6,
             borderRadius: "10px",
           }}
         >
           <Box
             sx={{
-              borderRight: ".1px solid #9d6b53",
-              width: "50%",
+              borderRight: {
+                xs: "none",
+                sm: ".1px solid #9d6b53",
+                md: ".1px solid #9d6b53",
+              },
+              width: {
+                xs: "100%",
+                sm: "50%",
+                md: "50%",
+              },
             }}
           >
             <Typography
@@ -206,6 +229,7 @@ const ContactPage = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "space-between",
+                gap: "10px",
               }}
             >
               <FaInstagram
@@ -261,8 +285,16 @@ const ContactPage = () => {
           </Box>
           <Box
             sx={{
-              borderLeft: ".1px solid #9d6b53",
-              width: "50%",
+              borderLeft: {
+                xs: "none",
+                sm: ".1px solid #9d6b53",
+                md: ".1px solid #9d6b53",
+              },
+              width: {
+                xs: "100%",
+                sm: "50%",
+                md: "50%",
+              },
               display: "flex",
               flexDirection: "column",
               alignContent: "center",

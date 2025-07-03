@@ -22,6 +22,12 @@ const Banner = () => {
           color: "white",
           fontWeight: "bold",
           width: "50%",
+          fontSize: {
+            xs: "24px",
+            sm: "28px",
+            md: "32px",
+            lg: "36px",
+          },
         }}
       >
         “Africa - You can see a sunset and believe you have witnessed the Hand

@@ -19,7 +19,7 @@ const Navbar = () => {
     <AppBar
       position="fixed"
       sx={{
-        backgroundColor: scrolled ? "#f2f2f2" : "rgba(0, 0, 0, 0.2)",
+        backgroundColor: scrolled ? "white" : "rgba(0, 0, 0, 0.2)",
         boxShadow: "none",
         transition: "background-color 0.3s ease, box-shadow 0.3s ease",
         zIndex: 1200,

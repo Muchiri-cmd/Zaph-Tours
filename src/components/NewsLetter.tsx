@@ -10,7 +10,7 @@ const NewsLetter = () => {
     >
       <Box
         sx={{
-          width: 600,
+          maxWidth: 600,
           margin: "auto",
           textAlign: "center",
           padding: 4,

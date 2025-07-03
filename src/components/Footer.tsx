@@ -17,7 +17,16 @@ const Footer = () => {
       sx={{
         margin: "auto",
         display: "flex",
-        justifyContent: "space-around",
+        flexDirection: {
+          xs: "column",
+          sm: "row",
+          md: "row",
+        },
+        justifyContent: {
+          xs: "center",
+          sm: "space-between",
+          md: "space-between",
+        },
         alignItems: "center",
         padding: "60px 30px",
         boxShadow: 6,
@@ -26,7 +35,7 @@ const Footer = () => {
       <List>
         <ListItem>
           <Typography
-            variant="h1"
+            variant="h2"
             sx={{
               fontFamily: "Dancing Script, cursive",
               color: "#9d6b53",
@@ -44,7 +53,7 @@ const Footer = () => {
               padding: "0.5rem 1rem",
               fontSize: "1rem",
               width: "100%",
-              maxWidth: "500px",
+              maxWidth: "600px",
               color: "white",
             }}
           />

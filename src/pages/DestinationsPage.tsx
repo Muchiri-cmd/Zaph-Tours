@@ -30,10 +30,7 @@ const DestinationsPage = () => {
           Discover the world's most beautiful places with Zaph Tours. Lorem
           ipsum dolor sit amet consectetur adipisicing elit. Expedita, qui
           laboriosam voluptatem, suscipit quibusdam quas a vel itaque at harum
-          eaque obcaecati explicabo necessitatibus porro sit dicta. Fugit ad
-          quasi unde sunt omnis harum incidunt. Praesentium earum laboriosam quo
-          delectus, consequatur ea pariatur, dolores ipsam deleniti hic commodi
-          repellendus saepe?
+          eaque obcaecati explicabo necessitatibus porro sit dicta.
         </Typography>
 
         <Box

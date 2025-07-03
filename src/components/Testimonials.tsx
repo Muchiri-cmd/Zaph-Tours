@@ -52,8 +52,8 @@ const Testimonials = () => {
                 //hover
                 "&:hover": {
                   cursor: "pointer",
-                  transform: "scale(1.05)",
-                  transition: "transform 0.4s ease-in-out",
+                  transform: "scale(1.02)",
+                  transition: "transform 0.5s ease-in-out",
                 },
               }}
             >
