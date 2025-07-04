@@ -32,7 +32,6 @@ const About = () => {
         variant="h5"
         sx={{
           mb: 4,
-          fontFamily: "'Roboto', sans-serif",
           fontWeight: "normal",
         }}
       >
