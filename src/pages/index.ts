@@ -1,5 +1,5 @@
 import DestinationsPage from "./DestinationsPage";
-import HomePage from "./Homepage";
+import HomePage from "./HomePage";
 import TripsPage from "./TripsPage";
 import ContactPage from "./ContactPage";
 

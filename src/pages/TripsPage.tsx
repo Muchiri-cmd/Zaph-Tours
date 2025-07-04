@@ -7,7 +7,6 @@ import {
   CardContent,
   Chip,
   Button,
-  Grid,
 } from "@mui/material";
 import tripTypes from "../data/trip-packages.json";
 import Carousel from "react-material-ui-carousel";

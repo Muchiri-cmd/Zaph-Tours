@@ -1,5 +1,6 @@
 import { AppBar, Toolbar, Typography, Stack, Button } from "@mui/material";
-import { useEffect, useState, MouseEvent } from "react";
+import { useEffect, useState } from "react";
+import type { MouseEvent } from "react";
 import { Link } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
 import { Box, Menu, MenuList, MenuItem, IconButton } from "@mui/material";
@@ -17,9 +18,9 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const [anchorNav, setAnchorNav] = useState(null);
+  const [anchorNav, setAnchorNav] = useState<null | HTMLElement>(null);
 
-  const openMenu = (e: MouseEvent) => {
+  const openMenu = (e: MouseEvent<HTMLElement>) => {
     setAnchorNav(e.currentTarget);
   };
 
